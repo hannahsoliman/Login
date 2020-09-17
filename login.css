@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: aliceblue;
+    font-family: sans-serif;
+}
+
+h5{
+    font-family: sans-serif;
+    color: white ;
+    background: darkcyan ;
+    padding: 8pt;
+    width: 12%;
+    /*padding*/
+}
+
+.loginbox{
+    width: 420px;
+    height: 200px;
+    top: 50%;
+    bottom: 50%;
+    background: white;
+    color: #fff; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.loginbox input[type="submit"]{
+    width: 12%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline:none;
+    height: 40px;
+}
+
+
+
