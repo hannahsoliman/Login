@@ -3,14 +3,110 @@ h5{
     font-size: 10pt;
     font-weight: lighter;
     color: rgb(222, 242, 248) ;
-    background: darkcyan ;
-    padding: 20px;
-    width: 12%;
-    margin: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #008392, #008392 20%, white 20%, white);
+    padding: 10px;
+    margin: 0 0;
 
 }
 
-.loginbox{
+  /*typography*/
+  html{
+      font-family: arial;
+      background: whitesmoke;
+  }
+
+
+
+  /* spacing */
+table{
+    padding: 15px 30px 30px 30px; 
+    border: solid #008392;
+    border-radius: 5px;
+    border-width: .5px;
+    display: table;
+    width: 30%;
+    margin-top: 15%; 
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
+}
+
+
+th{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #687681;
+}
+
+input{
+    border: solid #008392;
+    border-radius: 5px;
+    border-width: .5px;
+    height:20px;
+    display:table-row;
+    width: 80%;
+    margin-top: 2px ; 
+    margin-right: 15px;
+    column-span: 2; /*??*/ 
+      
+}
+
+button{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    color: white;
+    border: solid #008392;
+    border-radius: 5px;
+    background: #008392;
+    padding: 3px 6px;
+    cursor:pointer; 
+    margin-top: 20px;
+}
+
+  /* tbody {
+    padding: auto 55px auto 120px;
+    table-layout: fixed;
+    width: 490px;
+    border: 1px solid darkcyan;
+    border-radius: 3px;
+    
+  }
+
+  tbody th{
+      font-family: sans-serif;
+      font-weight: lighter;
+      color: gray;
+  }
+
+  tbody td{
+      text-align: center;
+      border-radius: 5px;
+      border-width: 1px;
+      border: darkcyan;
+  }
+
+  
+  tfoot td{
+      text-align: center;
+      position: fixed;
+      bottom: 10px;
+      color: white;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin: 30px auto 30px auto;
+      width: 17px;
+      border: solid darkcyan;
+      background: darkcyan;
+      border-right: 120px;
+      border-radius: 5px;
+      border-width: 1px;
+
+  } */
+/* .loginbox{
     width: 420px;
     height: 200px;
     top: 50%;
@@ -55,7 +151,7 @@ h5{
     width: 12%;
     align-content: left;
 
-}
+} */
 
 
 
