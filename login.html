@@ -3,30 +3,31 @@
     <head>
         <title>EnrollPoint Login</title>
         <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript" src='./routes/services/login.js'>
     <body>
         <h5>EnrollPoint</h5>
-        <table>
+        <table id="login-form">
             <tbody>
                 <tr>
                     <th scope= "row">User ID: </th>
-                        <td><input type="text"/></td>
+                        <td><input type="text" name="username" id="username-field"/></td>
                 </tr>
                 <tr>
                      <th scope = "row">Password: </th>
-                        <td><input type="text"/></td>
+                        <td><input type="password" name="password" id="password-field"/></td>
                 </tr>
             
                 <tr>
                     <td></td>
                     <td></td>
-                    <td> <button type="button">Log In</button> </td>
+                    <td> <button type="submit" id="login-form-submit">Log In</button> </td>
                 </tr>
             </tbody>
         </table>
-     
     </body>
+    </script>
     </head>
-</html> 
+    </html> 
 
 
 
