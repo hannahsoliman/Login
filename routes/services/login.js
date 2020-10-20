@@ -40,8 +40,6 @@ loginButton.addEventListener("click", (e) => {
             }
     
     
-       //const {userid, password} = req.body;
-       //const {userid, password} = req.User;  
     
         try{
             let user = await User.findOne({userid});

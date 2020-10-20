@@ -3,29 +3,24 @@
     <head>
         <title>EnrollPoint Login</title>
         <link rel="stylesheet" type="text/css" href="login.css">
-    <script type="text/javascript" src='./routes/services/login.js'>
+        <script type="text/javascript" src='./routes/services/login.js'></script>
     <body>
         <h5>EnrollPoint</h5>
-        <table id="login-form">
-            <tbody>
-                <tr>
-                    <th scope= "row">User ID: </th>
-                        <td><input type="text" name="username" id="username-field"/></td>
-                </tr>
-                <tr>
-                     <th scope = "row">Password: </th>
-                        <td><input type="password" name="password" id="password-field"/></td>
-                </tr>
-            
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td> <button type="submit" id="login-form-submit">Log In</button> </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="container">
+            <form class="login_form" method="POST">
+                <div class="font">User Id:</div><input type="text" name="">
+                <div id="username_error"> Username must be 8-32 characters!</div>
+
+                <div class="font font2">Password:</div>
+                <input type="password" name="">
+                <div id="password_error"> Password must be 8-16 characters!</div>
+
+
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        
     </body>
-    </script>
     </head>
     </html> 
 

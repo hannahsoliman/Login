@@ -19,7 +19,7 @@ h5{
 
 
   /* spacing */
-table{
+.login_form{
     padding: 15px 30px 30px 30px; 
     border: solid #008392;
     border-radius: 5px;
@@ -34,14 +34,14 @@ table{
 }
 
 
-th{
+.login_form .font{
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 10px;
     color: #687681;
 }
 
-input{
+.login_form input{
     border: solid #008392;
     border-radius: 5px;
     border-width: .5px;
@@ -54,7 +54,7 @@ input{
       
 }
 
-button{
+.login_form button{
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 10px;
@@ -65,6 +65,20 @@ button{
     padding: 3px 6px;
     cursor:pointer; 
     margin-top: 20px;
+}
+
+.login_form #username_error,
+.login_form #password_error{
+    margin-top: 5px;
+    width: 300px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
 }
 
   /* tbody {
