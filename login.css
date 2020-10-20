@@ -70,12 +70,12 @@ h5{
 .login_form #username_error,
 .login_form #password_error{
     margin-top: 5px;
-    width: 300px;
-    font-size: 18px;
+    width: 79%;
+    font-size: 12px;
     color: #c62828;
     background: rgba(255,0,0,0.1);
     text-align: center;
-    padding: 5px 8px;
+    padding: 3px 5px;
     border-radius: 3px;
     border: 1px solid #ef9a9a;
     display: none;
